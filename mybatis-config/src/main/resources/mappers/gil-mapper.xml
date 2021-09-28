@@ -4,4 +4,9 @@
 
 <mapper namespace="com.gil.mybatis.mapper.MyBatisMapper">
 
+    <select id="requestTest1" resultType="mybatisVo">
+        select *
+        from tb_user
+        limit 1
+    </select>
 </mapper>

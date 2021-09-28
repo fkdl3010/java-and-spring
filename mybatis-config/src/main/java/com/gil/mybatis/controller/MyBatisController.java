@@ -1,5 +1,28 @@
 package com.gil.mybatis.controller;
 
+import com.gil.mybatis.service.MyBatisService;
+import com.gil.mybatis.vo.MybatisVo;
+import com.gil.utils.ApiResult;
+import java.util.Map;
+import org.springframework.http.MediaType;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+@Controller
 public class MyBatisController {
+
+    private final MyBatisService myBatisService;
+
+    public MyBatisController(MyBatisService myBatisService) {
+        this.myBatisService = myBatisService;
+    }
+
+    @PostMapping(value = "/test1", produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    public ApiResult<MybatisVo> requestTest1(){
+        return ApiResult.succeed(myBatisService.requestTest1(), "조회 성공");
+    }
+
 
 }
