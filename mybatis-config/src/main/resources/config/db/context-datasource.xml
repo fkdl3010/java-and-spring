@@ -27,6 +27,6 @@
     <!--        <property name="sqlSessionTemplateBeanName" value="sqlSessionTemplate"/>-->
     <!--    </bean>-->
 
-    <mapper:scan base-package="com.gil.testexception.domain.repository"/>
+    <mapper:scan base-package="com.gil.mybatis.mapper"/>
 
 </beans>
