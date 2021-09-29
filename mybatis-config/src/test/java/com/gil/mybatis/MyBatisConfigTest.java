@@ -19,7 +19,6 @@ class MyBatisConfigTest {
 
     static ApplicationContext context;
 
-
     @BeforeAll
     public static void beforeAll(){
         context = new ClassPathXmlApplicationContext("classpath:/config/db/context-datasource.xml");
@@ -33,7 +32,7 @@ class MyBatisConfigTest {
             Connection con = datasource.getConnection();
             System.out.println("con = " + con);
         });
-    }
 
+    }
 
 }
