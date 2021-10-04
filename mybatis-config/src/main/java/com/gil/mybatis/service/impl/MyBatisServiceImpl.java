@@ -4,15 +4,17 @@ import com.gil.mybatis.mapper.MyBatisMapper;
 import com.gil.mybatis.service.MyBatisService;
 import com.gil.mybatis.vo.MybatisVo;
 import com.gil.utils.ApiResult;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class MyBatisServiceImpl implements MyBatisService {
 
-    private final MyBatisMapper myBatisMapper;
+    @Autowired
+    private MyBatisMapper myBatisMapper;
 
-    public MyBatisServiceImpl(MyBatisMapper myBatisMapper) {
-        this.myBatisMapper = myBatisMapper;
+    public MyBatisServiceImpl() {
+
     }
 
     @Override

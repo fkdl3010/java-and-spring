@@ -13,10 +13,10 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.test.web.servlet.MockMvc;
 
 @ExtendWith({MockitoExtension.class})
 class MyBatisConfigTest {
-
     static ApplicationContext context;
 
     @BeforeAll
@@ -34,5 +34,4 @@ class MyBatisConfigTest {
         });
 
     }
-
 }

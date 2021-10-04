@@ -21,6 +21,7 @@ public class MyBatisController {
     @PostMapping(value = "/test1", produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public ApiResult<MybatisVo> requestTest1(){
+        System.out.println("요청실행");
         return ApiResult.succeed(myBatisService.requestTest1(), "조회 성공");
     }
 
