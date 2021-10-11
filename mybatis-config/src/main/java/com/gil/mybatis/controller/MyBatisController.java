@@ -1,6 +1,7 @@
 package com.gil.mybatis.controller;
 
 import com.gil.mybatis.service.MyBatisService;
+import com.gil.mybatis.service.impl.MyBatisServiceImpl;
 import com.gil.mybatis.vo.MybatisVo;
 import com.gil.utils.ApiResult;
 import java.util.Map;
@@ -12,9 +13,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class MyBatisController {
 
-    private final MyBatisService myBatisService;
+    private final MyBatisServiceImpl myBatisService;
 
-    public MyBatisController(MyBatisService myBatisService) {
+    public MyBatisController(MyBatisServiceImpl myBatisService) {
         this.myBatisService = myBatisService;
     }
 
