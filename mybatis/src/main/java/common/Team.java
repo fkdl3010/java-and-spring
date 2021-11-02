@@ -1,5 +1,6 @@
 package common;
 
+import java.util.List;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -10,7 +11,7 @@ import lombok.Setter;
 public class Team {
 
     private String teamName;
-    private String location;
-    private Member member;
+    private Location locationName;
+    private List<Member> member;
 
 }

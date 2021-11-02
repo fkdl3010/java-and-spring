@@ -5,6 +5,9 @@
 <configuration>
 
     <typeAliases>
-        <typeAlias type="com.gil.mybatis.vo.MybatisVo" alias="mybatisVo"/>
+        <typeAlias type="common.Location" alias="location"/>
+        <typeAlias type="common.Member" alias="member"/>
+        <typeAlias type="common.NoteBook" alias="noteBook"/>
+        <typeAlias type="common.Team" alias="team"/>
     </typeAliases>
 </configuration>

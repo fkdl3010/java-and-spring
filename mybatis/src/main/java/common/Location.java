@@ -7,12 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Member {
-
-    private String id;
+public class Location {
     private String name;
-    private int age;
-    private NoteBook noteBook;
-    private Team teamId;
 
 }

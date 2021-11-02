@@ -23,5 +23,6 @@
     </bean>
 
 <!--    <mapper:scan base-package="com.gil.mybatis.mapper"/>-->
+    <mapper:scan base-package="gilresultmap" marker-interface="mapperInterface.GilMapper" />
 
 </beans>
