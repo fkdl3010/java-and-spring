@@ -50,7 +50,11 @@ public class OptionalPractice {
         }
 
         System.out.println("-----");
+        int length = Optional.ofNullable("123").map(String::length).orElse(0);
+
     }
+
+
 
 
 }
