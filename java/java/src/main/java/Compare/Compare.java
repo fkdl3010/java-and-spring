@@ -32,9 +32,14 @@ public class Compare {
 
         System.out.println("stream sorted = " + collect1);
 
-        Collections.sort(gilGamerList);
+//        Collections.sort(gilGamerList);
+//
+//        System.out.println("컴페러블의 compareTo 사용 시 = " + gilGamerList);
+
+        Collections.sort(gilGamerList, (o1, o2) -> o1.getScore()-o2.getScore());
 
         System.out.println("컴페러블의 compareTo 사용 시 = " + gilGamerList);
+
 
     }
 }
