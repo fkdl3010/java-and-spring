@@ -190,4 +190,8 @@ buildNumber.properties
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
 
+!maven-wrapper.jar
+!maven-wrapper.properties
+!MavenWrapperDownloader.java
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,intellij,maven,java
