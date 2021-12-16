@@ -30,11 +30,15 @@
 <!--        <property name="sqlSessionTemplate" ref="sqlSessionTemplate" />-->
 <!--    </bean>-->
 
-    <!--    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">-->
-    <!--        <property name="basePackage" value="com.gil.testexception.domain.repository"/>-->
-    <!--        <property name="sqlSessionTemplateBeanName" value="sqlSessionTemplate"/>-->
-    <!--    </bean>-->
+    <!--2. Mapper 스캔-->
 
-    <mybatis:scan base-package="com.gil.mybatis.mapper" marker-interface="com.gil.utils.BaseGilMapper" />
+    <!--2.1 mybatis:scan -->
+    <!--    <mybatis:scan base-package="com.gil.mybatis.mapper" marker-interface="com.gil.utils.BaseGilMapper" />-->
+
+    <!--2.2 MapperScannerConfigurer-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.gil.mybatis.mapper"/>
+    </bean>
+
 
 </beans>

@@ -5,5 +5,4 @@ import com.gil.utils.GilMapper;
 import com.gil.mybatis.vo.MybatisVo;
 
 public interface MyBatisMapper extends BaseGilMapper {
-
 }
