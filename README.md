@@ -1,16 +1,18 @@
-## [1.Java](https://github.com/fkdl3010/java-and-spring/tree/main/1_java)
+## 1.Java
 
--   compare
--   enum
--   map
--   optional
+-   [compare](https://github.com/fkdl3010/java-and-spring/tree/main/1_java/compare)
+-   [enum](https://github.com/fkdl3010/java-and-spring/tree/main/1_java/enum)
+-   [map](https://github.com/fkdl3010/java-and-spring/tree/main/1_java/map/src/com/gil/map)
+-   [optional](https://github.com/fkdl3010/java-and-spring/tree/main/1_java/optional)
 
-## [2.Spring](https://github.com/fkdl3010/java-and-spring/tree/main/2_spring)
+## 2.Spring
 
-## [3.Jpa](https://github.com/fkdl3010/java-and-spring/tree/main/3_jpa)
+## 3.Jpa
 
-## [4.Junit](https://github.com/fkdl3010/java-and-spring/tree/main/4_junit)
+## 4.Junit
 
-## [5.Mybatis](https://github.com/fkdl3010/java-and-spring/tree/main/5_mybatis)
+## 5.Mybatis
 
-## [6.design-pattern](https://github.com/fkdl3010/java-and-spring/tree/main/6_design-pattern)
+-   [injectMapper](https://github.com/fkdl3010/java-and-spring/tree/main/5_mybatis/injectMapper)
+
+## 6.design-pattern
